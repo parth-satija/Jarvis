@@ -10,6 +10,25 @@ pip install ollama pillow ddgs keyboard pymupdf mammoth python-docx rich pytesse
 ```
 ### Step 3:
 Download Ollama and download a tooling capable model of your choice (Older models like qwen2.5-coder are also supported)
+For example:
+```Poweshell
+ollama pull qwen2.5-coder:7b
+```
+### Step 4:
+Change the first line of the Modelfile to configure it for the model of your choice. Currently, it is set to **qwen2.5-coder:7b**
+### Step 5:
+Apply the provided Modelfile to your model by running the following command **in the folder the Modelfile is located**.
+```Poweshell
+ollama create jarvis -f ./Modelfile
+```
+### Step 6:
+Run main.py once. This creates all the necessary files 
+### Optional Step
+Download and install Tesseract as it allows for OCR to work. Jarvis is completely functional without OCR.
+### Step 7:
+You can now lauch Jarvis. 
+Run the **gui.py** script if you want to run the Jarvis Control Centre which allows you the full functionality of Jarvis while also allowing you to modify any file (Like skill files, knowledge bases, memory files etc). This is the recommended approach to use Jarvis
+Run the **main.py** script if you prefer the CLI tool instead. This requires an IDE if you want to modify any files (Or you can tell Jarvis to do it.)
 ## Jarvis' Capabilities
 Jarvis can do the following things:
 - Read/write files
