@@ -1,8 +1,8 @@
 # Jarvis
-Jarvis is an agentic framework built for local AI desktop assistance. It can help you with code, UIA, repitive tasks, browsing etc. 
+Jarvis is an agentic framework built for local AI desktop assistance. It can help you with code, UIA, repetitive tasks, browsing etc. 
 ## Setup Instruction
 ### Step 1:
-Download the zip file from the releases and extract it into an empty folder or clone the repo inside an empty folder
+Download the ZIP file from the releases and extract it into an empty folder or clone the repo inside an empty folder
 ### Step 2:
 Download the python libraries required for the scripts to run using the following command.
 ```Poweshell
@@ -26,7 +26,7 @@ Run main.py once. This creates all the necessary files
 ### Optional Step
 Download and install Tesseract as it allows for OCR to work. Jarvis is completely functional without OCR.
 ### Step 7:
-You can now lauch Jarvis. 
+You can now launch Jarvis. 
 Run the **gui.py** script if you want to run the Jarvis Control Centre which allows you the full functionality of Jarvis while also allowing you to modify any file (Like skill files, knowledge bases, memory files etc). This is the recommended approach to use Jarvis.
 
 Run the **main.py** script if you prefer the CLI tool instead. This requires an IDE if you want to modify any files (Or you can tell Jarvis to do it.)
