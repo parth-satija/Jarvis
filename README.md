@@ -1,5 +1,8 @@
 # Jarvis
 Jarvis is an agentic framework built for local AI desktop assistance. It can help you with code, UIA, repetitive tasks, browsing etc. 
+
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/b4acdd7b-5030-498c-8214-82e2b4844ec9" />
+
 ## Setup Instruction
 ### Step 1:
 Download the ZIP file from the releases and extract it into an empty folder or clone the repo inside an empty folder
