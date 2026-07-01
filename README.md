@@ -19,7 +19,7 @@ Change the first line of the Modelfile to configure it for the model of your cho
 ### Step 5:
 Apply the provided Modelfile to your model by running the following command **in the folder the Modelfile is located**.
 ```Poweshell
-ollama create jarvishehe -f ./Modelfile
+ollama create jarvis -f ./Modelfile
 ```
 ### Step 6:
 Run main.py once. This creates all the necessary files 
@@ -38,4 +38,4 @@ Jarvis can do the following things:
 - Control your desktop using UIA
 - Use and create skills
 - Use and create knowledge bases
-- More things that I am too bored to list
+- More things that I am too tired to list
